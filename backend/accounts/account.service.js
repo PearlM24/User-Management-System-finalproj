@@ -59,13 +59,13 @@ async function authenticate({ email, password, ipAddress }) {
         throw 'Your account has been deactivated. Please contact an administrator.';
     }
     
-    const verificationStatus = !!(account.verified || account.passwordReset);
+   /* const verificationStatus = !!(account.verified || account.passwordReset);
     console.log(`- Verification check result: ${verificationStatus}`);
     
     if (!account.isVerified) {
         console.log(`Account ${email} is not verified`);
         throw 'Please verify your email before logging in';
-    }
+    }*/
     
     const passwordValid = await bcrypt.compare(password, account.passwordHash);
     if (!passwordValid) {
