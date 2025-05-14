@@ -2,18 +2,18 @@
   "database": {
     "host": "153.92.15.31",
     "port": 3306,
-    "user": "u875409848_joven",
+    "user": "u875409848_monceda",
     "password": "9T2Z5$3UKkgSYzE",
-    "database": "u875409848_joven"
+    "database": "u875409848_monceda"
   },
         "secret": "TcxtoIgRRbUqqgW174x1zAA==",
-        "emailFrom": "cyrusjoven0@gmail.com",
+        "emailFrom": "moncedapearl@gmail.com",
         "smtpOptions": {  
         "host": "smtp.ethereal.email",
         "port": 587,
         "auth": {
-        "user": "cyrusjoven0@gmail.com",
-        "pass": "oktv esvu qdpp cknm"
+        "user": "moncedapearl@gmail.com",
+        "pass": "rkpz pytn kjkr jsmy"
         }
         }
     }
